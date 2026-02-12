@@ -1,0 +1,11 @@
+{
+  "$schema": "https://langchain-ai.github.io/langgraph/schemas/langgraph.schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "chatbot": "./src/workshop/chatbot.py:graph",
+    "support_router": "./src/workshop/support_router.py:graph",
+    "agent_with_tools": "./src/workshop/agent_with_tools.py:graph",
+    "multi_agent_team": "./src/workshop/multi_agent_team.py:graph"
+  },
+  "env": ".env"
+}
